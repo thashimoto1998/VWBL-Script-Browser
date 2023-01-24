@@ -26,6 +26,7 @@ async function main() {
         document.getElementById('imageList').appendChild(br);
         document.getElementById('imageList').appendChild(description);
     };
+    console.log('get imageList element',  document.getElementById('imageList').value);
 }
 
 main();

@@ -23,7 +23,7 @@ async function main() {
         const br1 = document.createElement("br");
         br1.className = 'NFTItem';
         const description = document.createTextNode(v.description);
-        description.className = 'NFTItem;
+        description.className = 'NFTItem';
         const br2 = document.createElement("br");
         br2.className = 'NFTItem';
         const btn = document.createElement("button");
